@@ -4,7 +4,7 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.tree import DecisionTreeClassifier
-from plotkab import plot_decision_regions
+from ..plotkab import plot_decision_regions
 from pydotplus import graph_from_dot_data
 from sklearn.tree import export_graphviz
 from sklearn.ensemble import RandomForestClassifier
